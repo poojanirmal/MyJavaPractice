@@ -1,4 +1,4 @@
-package FirstProgramme;
+package JavaProgram;
 
 public class _1_DataType {
 	

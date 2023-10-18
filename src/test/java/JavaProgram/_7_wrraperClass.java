@@ -1,4 +1,4 @@
-package FirstProgramme;
+package JavaProgram;
 
 public class _7_wrraperClass {
 	

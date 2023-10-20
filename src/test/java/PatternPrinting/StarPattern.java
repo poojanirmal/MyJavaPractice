@@ -137,5 +137,71 @@ public class StarPattern {
 		}
 		System.out.println(" ");
 		}
+		
+		System.out.println(".......................");
+		
+//		6.Pyramid pattern
+//		   *
+//		 *   *
+//	   *   *   *
+//   *   *   *   *
+	
+		for (int i = 1; i <= 4; i++) 
+		{
+			for (int j = 3; j>=i; j--) 
+			{
+				System.out.print(" ");
+			}
+			for (int k = 1; k <= i; k++) 
+			{
+				System.out.print(" *");
+			}
+			System.out.println(" ");
+		}
+		
+		System.out.println(".......................");
+		
+//		7.Alphabetical pattern
+//		A
+//		A B
+//		A B C
+//		A B C D
+//		A B C D E
+
+		int alpha = 65;
+		for (int i = 0; i <= 4; i++) 
+		{
+			for (int j = 0; j <= i; j++)
+			{
+				System.out.print((char) (alpha + j) + " ");
+			}
+			
+			System.out.println(" ");
+		}
+		
+		System.out.println(".......................");
+
+
+//		8.Another Type Of Alphabetical Pattern
+//		A
+//		B B
+//		C C C
+//		D D D D
+//		E E E E E
+
+		int beta = 65;
+
+		for (int i = 0; i <= 4; i++) 
+		{
+			for (int j = 0; j <= i; j++)
+			{
+				System.out.print((char) beta + " ");
+			}
+			beta++;
+			System.out.println(" ");
+		}
+		
+		
+		
 	}
 }

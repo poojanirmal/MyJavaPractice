@@ -23,7 +23,8 @@ public class _1_DataType {
 		String t = "Rahul";
 		System.out.println(t);
 		
-		
+		double d = 1.40;
+		System.out.println(d);//output1.4 not 1.40
 		
 		
 		

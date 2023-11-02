@@ -68,13 +68,21 @@ public class _8_StringManipulation {
 		
 		System.out.println(u[4]+" "+u[0]);
 		
-	
+	//Questions practice
 		
+		String  x = "Standard Order 32456789 is created successfully for the account 789";
+		System.out.println(x.substring(15, 23));
 		
+		int var= 5;
+	       System.out.println(var++);//1+5 = 6 is output,now var become 6 for onward steps
+	       System.out.println(var++);// var value 6 as it is but calculation on next step(6+1 but +1 is add on next step = 6 is ouput 
+	       //( post means for next step)dont add or minus in this step used value as it is)
+	       System.out.println(var);//+1+6=7 (+1 is coming from above step post increament and var value is 6 ) = 7 is is the output
 		
-		
-		
-		
+		int war = 5;
+		System.out.println(war--);//5
+		System.out.println(--war);//3
+		System.out.println(war);//3
 		
 		
 		

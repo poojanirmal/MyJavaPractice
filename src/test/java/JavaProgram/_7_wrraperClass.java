@@ -5,7 +5,7 @@ public class _7_wrraperClass {
 	
 	public static void main(String args[]) {
 		
-//		String ti int
+//		String to int
 		
 		String i = "100";
 		

@@ -15,7 +15,7 @@ public class _12NoPrimeOrNot {
 		      }
 		    }
 
-		    if (!flag)
+		    if (!flag)//make the condition reverse if flag = false... ! make it true
 		      System.out.println(num + " is a prime number.");
 		    else
 		      System.out.println(num + " is not a prime number.");

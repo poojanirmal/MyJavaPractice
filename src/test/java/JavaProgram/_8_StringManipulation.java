@@ -84,7 +84,16 @@ public class _8_StringManipulation {
 		System.out.println(--war);//3
 		System.out.println(war);//3
 		
-		
+		//print even no from array
+		int []dr = {5,10,30,40,87,67};
+		for(int i : dr)
+		{
+			if(i % 2 == 0)
+			{
+				System.out.println(i);
+			}
+			int []d = {i};
+		}
 		
 		
 		
